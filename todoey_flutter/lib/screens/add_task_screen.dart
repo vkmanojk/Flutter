@@ -5,10 +5,10 @@ class AddTaskScreen extends StatelessWidget {
 
   AddTaskScreen({this.addTaskCallback});
 
+  String newTaskTitle;
+
   @override
   Widget build(BuildContext context) {
-    String newTaskTitle;
-
     return Container(
       color: Color(0xFF757575),
       child: Container(
